@@ -1,0 +1,95 @@
+
+.navbar{
+    text-align:center;
+    width: 100%;
+    height:60px;
+}
+#first_line{
+    display: grid;
+    height:60px;
+    font-size:12px;
+    margin:2px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:0px;
+    font-size:12px;
+}
+#title_image{
+    text-indent: 10px;
+    font-size: 48px;
+    color:darkslategrey;
+    vertical-align: middle;
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: url("images/scenery4.jpg") no-repeat transparent;
+    background-size: contain;
+    justify-content: center;
+}
+#navbar_active{
+    display:flex;
+    flex-direction: column;
+    background-color:steelblue;
+    color:white;
+    border: 1px solid slategrey;
+    justify-content: center;
+    vertical-align: middle;
+    padding:5px;
+}
+#navbar_1{
+    display:flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    color:slategrey;
+    border: 1px solid slategrey;
+    justify-content: center;
+    vertical-align: middle;
+    padding:5px;
+}
+#navbar_2{
+    display:flex;
+    flex-direction: column;
+    background-color:lightgrey;
+    color:slategrey;
+    border: 1px solid slategrey;
+    justify-content: center;
+    vertical-align: middle;
+    padding:5px;
+}
+#navbar_3{
+    display:flex;
+    flex-direction: column;
+    background-color:lightgrey;
+    color:slategrey;
+    border: 1px solid slategrey;
+    justify-content: center;
+    vertical-align: middle;
+    padding:5px;   
+}
+#navbar_4{
+    display:flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    color:slategrey;
+    border: 1px solid slategrey;
+    justify-content: center;
+    vertical-align:middle;
+    padding:5px;
+}
+#navbar_5{
+    display:flex;
+    flex-direction: column;
+    background-color:lightgrey;
+    color:slategrey;
+    border: 1px solid slategrey;
+    justify-content: center;
+    vertical-align:middle;
+    padding:5px;
+}
+@media(min-width:1100px) {
+    #title_image{
+        background-size: cover;
+    }
+    #first_line{
+        font-size:16px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
